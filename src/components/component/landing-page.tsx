@@ -5,6 +5,7 @@
  */
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
+import Image from "next/image";
 // import { Button } from "@/components/ui/button"
 
 export default function Component() {
@@ -89,7 +90,7 @@ export default function Component() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <div className="relative overflow-hidden rounded-xl shadow-lg group">
-                <img
+                <Image
                   src="/placeholder.svg"
                   alt="About Image"
                   width={550}
@@ -106,7 +107,7 @@ export default function Component() {
                 </div>
               </div>
               <div className="relative overflow-hidden rounded-xl shadow-lg group">
-                <img
+                <Image
                   src="/placeholder.svg"
                   alt="About Image"
                   width={550}
@@ -123,7 +124,7 @@ export default function Component() {
                 </div>
               </div>
               <div className="relative overflow-hidden rounded-xl shadow-lg group">
-                <img
+                <Image
                   src="/placeholder.svg"
                   alt="About Image"
                   width={550}
@@ -200,7 +201,7 @@ export default function Component() {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Freelance Projects</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Explore Our Freelance Work</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Check out some of the exciting freelance projects we've worked on for our clients.
+                  Check out some of the exciting freelance projects we worked on for our clients.
                 </p>
               </div>
             </div>
@@ -209,7 +210,7 @@ export default function Component() {
                 <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                   <span className="sr-only">View Project</span>
                 </Link>
-                <img
+                <Image
                   src="/placeholder.svg"
                   alt="Freelance Project 1"
                   width={500}
@@ -226,7 +227,7 @@ export default function Component() {
                 <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                   <span className="sr-only">View Project</span>
                 </Link>
-                <img
+                <Image
                   src="/placeholder.svg"
                   alt="Freelance Project 2"
                   width={500}
@@ -243,7 +244,7 @@ export default function Component() {
                 <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                   <span className="sr-only">View Project</span>
                 </Link>
-                <img
+                <Image
                   src="/placeholder.svg"
                   alt="Freelance Project 3"
                   width={500}
